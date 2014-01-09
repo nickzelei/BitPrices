@@ -12,7 +12,7 @@ window.addEventListener("load", function() {
 			if (key == "timestamp")
 			{
 				var date = new Date(data[key]*1000);
-				var curDate = date.getMonth() + "/" + date.getDate() + "/" + date.getFullYear();
+				var curDate = (date.getMonth()+1) + "/" + date.getDate() + "/" + date.getFullYear();
 				data[key] = curDate + " " + date.toLocaleTimeString();
 			}
 		  	var lastChild = document.createTextNode(key+": "+data[key]);
