@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+<!--Created by Nick Zelei-->
+<!--1/12/2014-->
 <style type="text/css" >
 body {
-  min-width: 400px; /* your desired width */
+  min-width: 260px; /* your desired width */
   max-width: 100%;
   position: relative;
   vertical-align:middle;
@@ -22,24 +24,31 @@ body {
 		<script type="text/javascript" src="popup.js"></script>
 	</head>
 	<body>
-	<div id="title">
-		Bitcoin Prices<br/>
-		--------------
-	</div>
-	<div id="last">
-	</div>
-	<div id="high">
-	</div>
-	<div id="low">
-	</div>
-	<div id="timestamp">
-	</div>
-	<div id="bid">
-	</div>
-	<div id="ask">
-	</div>
-	<div id="volume">
-	</div>
-
+		<table border="1">
+			<tr>
+				<th id="title" colspan="2">BitPrices</th>
+			</tr>
+			<tr>
+				<td id="last"></td>
+				<td id="volume"></td>
+			</tr>
+			<tr>
+				<td id="high"></td>
+				<td id="low"></td>
+			</tr>
+			<tr>
+				<td id="bid"></td>
+				<td id="ask"></td>
+			</tr>
+			<tr>
+				<td colspan="2" id="timestamp"></td>
+			</tr>
+			<tr>
+				<th colspan="2"><a href="/bitconversions.html">Bitcoin Conversions</a></th>
+			</tr>
+			<tr>
+				<td colspan="2"><center>*Bitstamp prices*</center></td>
+			</tr>
+		</table>
 	</body>
 </html>

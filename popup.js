@@ -1,3 +1,5 @@
+//Created by Nick Zelei
+//1/12/2014
 var bitstampURL = "https://www.bitstamp.net/api/ticker/"; // BitStamp's prices
 window.addEventListener("load", function() {
 	xmlhttp = new XMLHttpRequest();
