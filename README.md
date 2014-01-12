@@ -1,7 +1,10 @@
 BitPrices v1.0
 =============
-This Chrome Extension will pull the latest Bitcoin prices along with other interesting data from the BitStamp API
-This current version shows what is given from Bitstamp's API, as well as shows Bitcoin Unit conversions
+This Chrome Extension will pulls Bitcoin prices from Bitstamp's API.
+
+Recently added:
+- Changed to table layout
+- Bitcoin Unit conversions
 
 Author
 =============
