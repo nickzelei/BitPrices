@@ -5,6 +5,7 @@ This extension shows the current Bitcoin prices, as well as other useful informa
 v1.0.3
 -------------
 - Updated manifest description
+
 v1.0.2
 -------------
 - Updated table styling to a much more pleasing layout
