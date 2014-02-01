@@ -1,4 +1,4 @@
-BitPrices v1.0.2
+BitPrices v1.0.3
 =============
 This extension shows the current Bitcoin prices, as well as other useful information.  On the second page, you can see the different types of Bitcoin and their related USD value.  Pulls from BitStamp API.
 
