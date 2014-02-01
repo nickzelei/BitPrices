@@ -3,6 +3,7 @@ BitPrices v1.0.2
 This Chrome Extension pulls Bitcoin prices from Bitstamp's API.
 
 Recently added:
+
 v1.0.2
 Updated table styling to a much more pleasing layout
 
