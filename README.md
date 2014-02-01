@@ -13,5 +13,4 @@ Nick Zelei
 TODO
 ============
 - Add other fiat currency conversions
-- Make beautiful
 - Turn microBTC into μBTC
