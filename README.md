@@ -1,7 +1,10 @@
 BitPrices v1.0.2
 =============
-This Chrome Extension pulls Bitcoin prices from Bitstamp's API.
+This extension shows the current Bitcoin prices, as well as other useful information.  On the second page, you can see the different types of Bitcoin and their related USD value.  Pulls from BitStamp API.
 
+v1.0.3
+-------------
+- Updated manifest description
 v1.0.2
 -------------
 - Updated table styling to a much more pleasing layout
