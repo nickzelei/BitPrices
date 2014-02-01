@@ -2,35 +2,38 @@
 <html>
 <!--Created by Nick Zelei-->
 <!--1/12/2014-->
-<style type="text/css" >
-body {
-  min-width: 260px; /* your desired width */
-  max-width: 100%;
-  position: relative;
-  vertical-align:middle;
-}
-#last {
-	font-weight: bold
-}
-#high {
-	color: #33FF33
-}
-#low {
-	color: #FF0033
-}
-</style >
+<style type="text/css">
+	body {
+	  min-width: 260px; /* your desired width */
+	  max-width: 100%;
+	  position: relative;
+	  vertical-align:middle;
+	}
+	#last {
+		font-weight: bold;
+		text-align: middle;
+		font-size:15;
+	}
+	#high {
+		color: #336600;
+	}
+	#low {
+		color: #FF0033;
+		}
+</style>
 
 	<head>	
+		<link rel="stylesheet" type="text/css" href="table.css">
 		<script type="text/javascript" src="popup.js"></script>
 	</head>
 	<body>
-		<table border="1">
+		<table class="tftable" border="1">
 			<tr>
 				<th id="title" colspan="2">BitPrices</th>
 			</tr>
 			<tr>
 				<td id="last"></td>
-				<td id="volume"></td>
+				<td id="volume"></td>				
 			</tr>
 			<tr>
 				<td id="high"></td>
@@ -44,10 +47,10 @@ body {
 				<td colspan="2" id="timestamp"></td>
 			</tr>
 			<tr>
-				<th colspan="2"><a href="/bitconversions.html">Bitcoin Conversions</a></th>
+				<th colspan="2" ><a href="/bitconversions.html">Bitcoin Conversions</a></th>
 			</tr>
 			<tr>
-				<td colspan="2"><center>*Bitstamp prices*</center></td>
+				<th colspan="2"><center>*Bitstamp prices*</center></th>
 			</tr>
 		</table>
 	</body>
