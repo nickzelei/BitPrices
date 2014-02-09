@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "BitPrices",
   "description": "This extension shows the current Bitcoin prices, as well as other useful information.",
-  "version": "1.0.3",
+  "version": "1.0.4",
 
   "browser_action": {
     "default_title": "BitPrices",
