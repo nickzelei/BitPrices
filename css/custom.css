@@ -17,6 +17,11 @@ body, section {
 	width: 65%;
 }
 
+.tableNum {
+	position: absolute;
+	right: 60px;
+}
+
 #transTable > tbody > tr > td.col-2 {
 	padding-left: 30px;
 }
