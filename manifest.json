@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Bitcoin BitPrices",
-  "description": "This extension shows the current Bitcoin prices, as well as other useful information.",
-  "version": "1.0.5",
+  "description": "Shows the latest prices and transactions from Bitstamp",
+  "version": "1.1.0",
 
   "browser_action": {
     "default_title": "Bitcoin BitPrices",
@@ -10,6 +10,7 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "https://www.bitstamp.net/api/ticker/"
+    "https://www.bitstamp.net/api/ticker/",
+    "https://www.bitstamp.net/api/transactions/"
   ]
 }

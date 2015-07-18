@@ -1,59 +1,62 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-<!--Created by Nick Zelei-->
-<!--1/12/2014-->
-<style type="text/css">
-	body {
-	  min-width: 260px; /* your desired width */
-	  max-width: 100%;
-	  position: relative;
-	  vertical-align:middle;
-	}
-	#last {
-		font-weight: bold;
-		text-align: middle;
-		font-size:15;
-	}
-	#high {
-		color: #336600;
-	}
-	#low {
-		color: #FF0033;
-		}
-	#volume, #timestamp {
-		text-align: center;
-	}
-</style>
-
-	<head>	
-		<link rel="stylesheet" type="text/css" href="table.css">
-		<script type="text/javascript" src="popup.js"></script>
+	<head>
+		<meta charset="utf-8">
+		<title>Bitcoin BitPrices</title>		
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+		<link href="css/custom.css" rel="stylesheet" media="screen" />
 	</head>
 	<body>
-		<table class="tftable" border="1">
-			<tr>
-				<th id="title" colspan="2">Bitcoin BitPrices</th>
-			</tr>
-			<tr>
-				<td id="last"></td>
-				<td id="vwap"></td>				
-			</tr>
-			<tr>
-				<td id="high"></td>
-				<td id="low"></td>
-			</tr>
-			<tr>
-				<td id="bid"></td>
-				<td id="ask"></td>
-			</tr>
-			<tr>
-				<td colspan="2" id="timestamp"></td>
-			</tr>
-			<tr>
-				<td colspan="2" id="volume"></td>
-			<tr>
-				<th colspan="2" ><a href="/bitconversions.html">Bitcoin Conversions</a></th>
-			</tr>
-		</table>
+				<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/popup.html">BitPrices</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-brand navbar-nav navbar-right">
+					<li class="">
+                        <span id="timestamp"></span>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<section>
+			<div class="container">
+                <div class="mainbody">
+                    <div class="row">
+                        <div class="col-offset-2 col-5">
+                            <span id="last"></span><span class="usdbtc">USD / BTC</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-offset-1 col-2">
+                            <div>bid: <span class="number" id="bid"></span></div>
+                        </div>
+                        <div class="col-offset-1 col-2">
+                            <div>ask: <span class="number" id="ask"></span></div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top:15px;">
+                        <div class="col-offset-1 col-2">
+                            <div>high: <span class="number" id="high"></span></div>
+                        </div>
+                        <div class="col-offset-1 col-2">
+                            <div>low: <span class="number" id="low"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="transactions">
+                    <div class="row">
+                        <table id="transTable" class="table table-hover">
+                        </table>
+                    </div>
+                </div>
+			</div>
+		</section>
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/jquery.timeago.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popup.min.js"></script>
 	</body>
 </html>

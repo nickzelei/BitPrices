@@ -1,6 +1,15 @@
-BitPrices v1.0.5
+BitPrices v1.1.0
 =============
-This extension shows the current Bitcoin prices, as well as other useful information.  On the second page, you can see the different types of Bitcoin and their related USD value.  Pulls from BitStamp API.
+Quickly see the most relevant Bitcoin prices. Also shows the transactions from the past hour. All data is pulled from Bitstamp.net
+
+v1.1.0
+-------------
+- Substantial UI overhaul
+- Now pulling in transactions from the last hour
+- Other various pruning
+- Added Bootstrap to aid with UI
+- Added jQuery for AJAX
+- Added timeago.js http://timeago.yarp.com/
 
 v1.0.5
 -------------
@@ -27,8 +36,3 @@ v1.0.1
 Author
 =============
 Nick Zelei
-
-TODO
-============
-- Add other fiat currency conversions
-- Turn microBTC into μBTC
