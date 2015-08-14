@@ -2,7 +2,9 @@ BitPrices v1.1.0
 =============
 Quickly see the most relevant Bitcoin prices. Also shows the transactions from the past hour. All data is pulled from Bitstamp.net
 
-You can add this extension to chrome here: https://chrome.google.com/webstore/detail/bitcoin-bitprices/hbojnodgdgldmojbedldhdchcjhheeka?hl=en
+You can add this extension to chrome here:
+
+https://chrome.google.com/webstore/detail/bitcoin-bitprices/hbojnodgdgldmojbedldhdchcjhheeka?hl=en
 
 v1.1.1
 ------------
