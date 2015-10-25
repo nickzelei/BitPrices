@@ -7,6 +7,7 @@ body, section {
 
 .container {
 	padding: 0px;
+	width: 430px;
 }
 
 .transactions {
@@ -14,12 +15,17 @@ body, section {
 }
 
 .table {
-	width: 65%;
+	/* width: 65%; */
 }
 
-.tableNum {
+.tableNumLeft {
 	position: absolute;
-	right: 60px;
+	right: 42px;
+}
+
+.tableNumRight {
+	position: absolute;
+	right: 54px;
 }
 
 #transTable > tbody > tr > td.col-2 {
@@ -27,18 +33,17 @@ body, section {
 }
 
 #transTable > tbody > tr > td.col-3 {
-	padding-left: 25px;
+	padding-left: 36px;
 }
 
 #last {
 	float: left;
-	padding: 0px 5px 0px 20px;
+	padding: 0px 5px 0px 0px;
 	font-size: 36px;
 }
 
 .number {
 	float: right;
-	padding-right: 15px;
 }
 
 #bid {
@@ -55,7 +60,7 @@ body, section {
 
 .usdbtc {
 	position: absolute;
-	bottom: 9px;
+	bottom: 8px;
 }
 
 /* Basic style tweaks */

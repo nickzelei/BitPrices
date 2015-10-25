@@ -67,11 +67,11 @@ window.addEventListener("load", function() {
 				var cellTime = row.insertCell(1);
 				var cellPrice = row.insertCell(2);
 				
-				cellAmt.innerHTML = "<span class='tableNum'>" + transLog[i].amount.toFixed(2) + "</span>";
+				cellAmt.innerHTML = "<span class='tableNumLeft'>" + transLog[i].amount.toFixed(2) + "</span>";
 				cellAmt.className = "col-2";
 				cellTime.innerHTML = $.timeago((new Date(transLog[i].date * 1000).toISOString()));
 				cellTime.className = "col-3";
-				cellPrice.innerHTML = transLog[i].price;
+				cellPrice.innerHTML = "<span class='tableNumRight'>" + transLog[i].price + "</span>";
 				cellPrice.className = "col-2";
 			}
 		}

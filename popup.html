@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Bitcoin BitPrices</title>		
+		<title>Bitcoin Price Ticker</title>		
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
 		<link href="css/custom.css" rel="stylesheet" media="screen" />
 	</head>
 	<body>
 				<nav class="navbar navbar-default" role="navigation">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/popup.html">BitPrices</a>
+				<a class="navbar-brand" href="/popup.html">Bitcoin Prices</a>
 			</div>
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<ul class="nav navbar-brand navbar-nav navbar-right">
@@ -24,24 +24,24 @@
 			<div class="container">
                 <div class="mainbody">
                     <div class="row">
-                        <div class="col-offset-2 col-5">
+                        <div class="col-offset-4 col-8">
                             <span id="last"></span><span class="usdbtc">USD / BTC</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-offset-1 col-2">
-                            <div>bid: <span class="number" id="bid"></span></div>
+                        <div class="col-offset-2 col-3">
+                            <div><span>bid: </span><span class="number" id="bid"></span></div>
                         </div>
-                        <div class="col-offset-1 col-2">
-                            <div>ask: <span class="number" id="ask"></span></div>
+                        <div class="col-offset-2 col-3" style="margin-left: 64px;">
+                            <div><span>ask: </span><span class="number" id="ask"></span></div>
                         </div>
                     </div>
                     <div class="row" style="padding-top:15px;">
-                        <div class="col-offset-1 col-2">
-                            <div>high: <span class="number" id="high"></span></div>
+                        <div class="col-offset-2 col-3">
+                            <div><span>high: </span><span class="number" id="high"></span></div>
                         </div>
-                        <div class="col-offset-1 col-2">
-                            <div>low: <span class="number" id="low"></span></div>
+                        <div class="col-offset-2 col-3" style="margin-left: 64px;">
+                            <div><span>low: </span><span class="number" id="low"></span></div>
                         </div>
                     </div>
                 </div>
