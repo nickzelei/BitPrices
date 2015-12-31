@@ -5,13 +5,17 @@ body, section {
 	background-color: #FFFFFF;
 }
 
+.mainbody {
+	padding-top: 20px;
+}
+
 .container {
 	padding: 0px;
 	width: 430px;
 }
 
 .transactions {
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .table {

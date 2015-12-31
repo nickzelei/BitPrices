@@ -3,7 +3,7 @@
   "name": "Bitcoin Price Ticker",
   "short_name": "Bitcoin Prices",
   "description": "Shows the latest prices and transactions from Bitstamp",
-  "version": "1.1.4",
+  "version": "1.1.5",
 
   "browser_action": {
     "default_title": "Bitcoin Price Ticker",
