@@ -31,7 +31,10 @@ window.addEventListener("load", function() {
 				if (key === "timestamp") {
 					var d = new Date(data[key] * 1000);
 					data[key] = d.getFullDate(); 
-				}				
+				}
+				else if (!isNaN(parseFloat(data[key]))) {
+					data[key] = parseFloat(data[key]).toFixed(2);
+				}
 				$('#' + key).html(data[key]);
 			}
 		}
